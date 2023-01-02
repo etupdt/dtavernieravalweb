@@ -1,0 +1,150 @@
+html {
+    font-size: 18px
+}
+
+main, aside {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    margin-top:50px;
+    font-size: 1rem;
+}
+
+header, footer {
+    width: 100%;
+    font-size: 1rem;
+    font-size: 1rem;
+}
+
+.navbar {
+    background-color: #F5F5F5;
+}
+
+.breadcrumb {
+    padding-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h2 {
+    color: green;
+    font-size: 1.33em;
+}
+
+h3 {
+    color: green;
+    font-size:1em;
+}
+
+h4 {
+    color: green;
+    font-size:1em;
+}
+
+h5 {
+    color: green;
+    font-size:1em;
+}
+
+p {
+    font-size: 0.9em;
+}
+
+span {
+    font-size: 0.9em;
+}
+
+.nav-link {
+    font-size: 01em;
+}
+
+article {
+    margin: 60px;
+}
+
+.randonnees {
+    font-size: 0.8em;
+}
+
+.rando {
+    height: 455px;
+    width: 310px;
+}
+
+.indicator img {
+    margin-right: 8px;
+}
+
+.conteneur {
+    padding:0px;
+}
+
+.logo {
+    height: 40px;
+}
+
+.elements {
+    margin-top: 80px;
+    padding:0px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 768px) {
+
+    html {
+        font-size: 16px
+    }
+    
+    .titresite {
+        font-size: 0.9em;
+    }
+
+    header, main, aside {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .elements {
+        width: 100%;
+    }
+
+    .image {
+        max-width: 450px;
+        margin: auto;
+        display: block;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+
+    html {
+        font-size: 14px
+    }
+    
+    .titresite {
+        font-size: 0.8em;
+    }
+
+    header, main, aside {
+        width: 100%;
+        margin: auto;
+    }
+    
+    .elements {
+        width: 100%;
+    }
+
+    .image-div {
+        display: none;
+    }
+
+    article {
+        margin: 25px;
+    }
+    
+}
+
