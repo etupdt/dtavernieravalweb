@@ -77,6 +77,18 @@ article {
     margin: 10px;
 }
 
+.breadcrumb {
+    background-color: transparent;
+}
+
+@media screen and (max-width: 1540px) {
+
+    .breadcrumb {
+        background-color: white;
+    }
+
+}
+
 @media screen and (max-width: 768px) {
 
     html {
@@ -112,15 +124,6 @@ article {
     
     .site-title {
         font-size: 0.8em;
-    }
-
-    header, main, aside {
-        width: 100%;
-        margin: auto;
-    }
-    
-    .elements {
-        width: 100%;
     }
 
     .image {
