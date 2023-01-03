@@ -4,12 +4,10 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta type="description" content="Site des randonneurs et amis de la nature">
+        <meta type="description" content="Page de description du balisage des sentiers">
         <title>Club Vosgien</title>
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
         <link href="style.css" rel="stylesheet" type="text/css" />
-        <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>    
-
     </head>
     <body>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
@@ -18,7 +16,7 @@
                 <div class="container">
                     <a class="navbar-brand d-flex align-items-center" href="/">
                         <span><img class="logo" src="img/logoV.png"/></span>
-                        <span class="titresite" >FÉDÉRATION DU CLUB VOSGIEN</span>
+                        <span class="site-title" >FÉDÉRATION DU CLUB VOSGIEN</span>
                     </a>
                     <button 
                         class="navbar-toggler" 
@@ -27,72 +25,87 @@
                     </button>
                     <div id="navcol-1" class="collapse navbar-collapse justify-content-end">
                         <ul class="navbar-nav">
-                            <li class="nav-item"><a class="nav-link active" href="index.html">Accueil</a></li>
+                            <li class="nav-item"><a class="nav-link" href="index.html">Accueil</a></li>
                             <li class="nav-item"><a class="nav-link" href="hiking.html">Randonnées</a></li>
-                            <li class="nav-item"><a class="nav-link" href="markup.html">Balisage</a></li>
+                            <li class="nav-item"><a class="nav-link active" href="markup.html">Balisage</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
             <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb" class="bg-transparent">
                 <ol class="breadcrumb">
-                  <li class="breadcrumb-item active" aria-current="page">Accueil</li>
+                    <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">Balisage</li>
                 </ol>
             </nav>              
         </header>
         <main>
             <article class="article">
-                <h2>BIENVENUE AU CLUB VOSGIEN</h2>
+                <h2>LE BALISAGE</h2>
                 <p>
-                    Créé en 1872, reconnu d’utilité publique en 1879, le Club Vosgien c’est 130 associations dans le Massif des Vosges, 
-                    sur la région Grand-Est, mais aussi à Paris et dans le Gard, pour pratiquer la randonnée, la marche nordique, 
-                    la marche d’orientation et d’autres activités de pleine nature.
-                    Le Club Vosgien c’est de nombreux bénévoles qui œuvrent au balisage et à l’entretien de plus de 20 000 km de d’itinéraires, 
-                    qui gèrent des chalets, refuges et abris pour les randonneurs dans le respect de la protection de la nature et des paysages.
-                    Pour organiser vos randonnées, le Club Vosgien édite des guides et des cartes de randonnée.
+                    Le Club Vosgien a mis en place son propre système de balisage des sentiers de randonnée basé sur des signes géométriques de 
+                    couleur (rouge, bleu, vert et jaune). C'est le type de signe qui désigne le parcours, par contre la couleur n'a pas de lien 
+                    avec la difficulté de l'itinéraire. Vous trouverez ce balisage sur la plupart des sentiers dans le Massif des Vosges.
                 </p>
             </article>
-            <article class="article">
+            <article class="bienvenue">
                 <div class="container d-flex flex-wrap">
-                    <div class="col elements image-div justify-content-center">
-                        <img class="image shadow-lg" src="img/accueil.jpg" alt="Club Vosgiens">
+                    <div class="col elements justify-content-center">
+                        <img class="image shadow-lg" src="img/balisage.png" alt="Club Vosgiens">
                     </div>
                     <div class="col elements">
                         <section class="align-middle">
-                            <h3>QUI SOMMES NOUS ?</h3>
+                            <h3>Balisage des itinéraires</h3>
                             <p>
-                                Le Club Vosgien a été reconnu d’utilité publique en 1879. 
-                                Le Club Vosgien c’est une longue histoire de plus de 145 ans et de nombreuses missions 
-                                comme le balisage des sentiers et la protection de la nature que nous invitons à découvrir.                            
+                                On distingue les grands parcours : traversée du Massif des Vosges du Nord au Sud balisée avec un rectangle ou 
+                                d'Est en Ouest balisée avec un losange.
+
+                                Les circuits sont balisés avec un disque pour des parcours de plus d'une demi-journée et des anneaux pour des 
+                                parcours de 2 à 4h de marche. Les petits itinéraires ou les sentiers de liaison sont balisés par des croix, 
+                                triangles ou chevalets.                            
                             </p>
                         </section>
                     </div>
                 </div>
             </article>
             <article class="article">
-                <h2>ACTIVITES</h2>
-                  <div class="card-group shadow">
-                    <div class="card">
-                        <img src="img/randonnees.png" class="card-img-top" alt="Randonnées">
-                        <div class="card-body">
-                            <h5 class="card-title">Randonnées</h5>
-                            <p class="card-text">Proposées dans le Grand-Est, Le Gard et la région parisienne.</p>
-                            <a href="#" class="btn btn-primary">Randonnées</a>
-                        </div>
+                <div class="container d-flex flex-wrap">
+                    <div class="col elements">
+                        <section class="align-middle">
+                            <h3>Panneaux directionnels</h3>
+                            <p>
+                                Sur les sentiers de randonnée, vous trouverez aussi des panneaux directionnels dont l'objectif est de renseigner 
+                                le randonneur sur la direction et les différentes étapes avec indication du temps de marche en heures. Les différents 
+                                lieux figurant sur un même parcours sont mentionnés de haut en bas.
+                            </p>
+                            <p>
+                                Pour les circuits, vous trouverez au départ de l'itinéraire un panneau de circuit qui présente en détail le circuit : 
+                                nom du circuit, durée et les différents points de passage.
+                            </p>
+                            <p>
+                                Sur les sentiers, vous verrez également des panneaux circulaires avec bordure verte, ils renseignent le randonneur 
+                                sur le nom de l'endroit où il se trouve et son altitude.                            
+                            </p>
+                        </section>
                     </div>
-                    <div class="card">
-                        <img src="img/chalets.png" class="card-img-top" alt="Refuges et Chalets">
-                        <div class="card-body">
-                            <h5 class="card-title">Chalets</h5>
-                            <p class="card-text">Le club Vosgien entretient également des refuges et chalets.</p>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <img src="img/boutique.png" class="card-img-top" alt="Boutique">
-                        <div class="card-body">
-                            <h5 class="card-title">Boutique</h5>
-                            <p class="card-text">La boutique propose des cartes et Guides ainsi que des Magazines et des Revues...</p>
-                        </div>
+                </div>
+            </article>
+            <article class="article">
+                <div class="container d-flex flex-wrap">
+                    <div class="col elements">
+                        <section class="align-middle">
+                            <h3>Utilisation des signes de balisage du Club Vosgien</h3>
+                            <p>
+                                Les signes de balisage du Club Vosgien sont déposés à l'INPI et soumis à autorisation pour leur utilisation sur tous 
+                                supports de communication papier ou web. Si vous souhaitez mentionner ces signes sur un support de communication,  
+                                merci d'adresser votre demande à la Fédération du Club Vosgien - mail : info@club-vosgien.com
+                            </p>
+                            <p>
+                                The Club Vosgien's  trail markings are registred with INPI. To use them for all kind of communication supports, print 
+                                or web,  you have to ask for an authorization. If you want to mention these trail markings in guides or various supports, 
+                                you have to make a request at the Federation du Club Vosgien to get the authorization to use them - mail : info@club-vosgien.com                        
+                            </p>
+                        </section>
                     </div>
                 </div>
             </article>
