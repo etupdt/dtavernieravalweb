@@ -100,7 +100,6 @@ article {
     }
 
     header, main, aside {
-        width: 100%;
         margin: auto;
     }
     
@@ -126,7 +125,7 @@ article {
         font-size: 0.8em;
     }
 
-    .image {
+    .div-image {
         display: none;
     }
 
