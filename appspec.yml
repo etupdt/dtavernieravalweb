@@ -2,7 +2,7 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /var/www/html/evaluations/vosgiens
+    destination: /var/www/html/evaluation1
 hooks:
    BeforeInstall:
     - location: scripts/installapache.sh
