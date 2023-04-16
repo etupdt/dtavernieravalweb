@@ -24,5 +24,7 @@ echo "Include /var/www/html/evaluation1/scripts/httpd-vhosts-443.conf" | sudo te
 cat /etc/httpd/conf/httpd.conf | grep -v "Listen 443" | sudo tee /etc/httpd/conf/httpd.conf > /dev/null
 echo "Listen 443" | sudo tee -a /etc/httpd/conf/httpd.conf > /dev/null
 
+cat /etc/httpd/conf.d/ssl.conf | grep -v "443" | sudo tee /etc/httpd/conf.d/ssl.conf > /dev/null
+
 sudo service httpd stop |& tee -a $log
 sudo service httpd start |& tee -a $log
